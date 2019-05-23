@@ -13,32 +13,5 @@
 }
 
 .btn {
-  .d-icon {
-    color: $primary;
-  }
-
-  &[href] {
-    color: $primary;
-  }
-  .discourse-no-touch & {
-    &.btn-hover {
-      background: $primary;
-      color: $secondary;
-      .d-icon {
-        color: $secondary;
-      }
-    }
-  }
-  &.disabled {
-    background: $primary;
-    .d-icon {
-      color: $primary;
-    }
-    &:hover {
-      color: dark-light-choose($primary, $secondary);
-      .d-icon {
-        color: $primary;
-      }
-    }
-  }
+  background: $tertiary;
 }

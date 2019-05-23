@@ -63,5 +63,6 @@ th {
 .badge-posts[href] {
     color: $primary;
 }
-
-$tag-color: $primary;
+.discourse-tag {
+  color: $primary;
+}

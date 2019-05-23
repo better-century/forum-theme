@@ -3,14 +3,14 @@
 	"about_url": "https://github.com/better-century/forum-theme/blob/master/README.md",
 	"license_url": "https://github.com/better-century/forum-theme/blob/master/LICENSE",
 	"color_schemes": {
-		"bc_colors2": {
-			"primary": "#000845",
-			"secondary": "#FFFEF4",
+		"bc_colors3": {
+			"primary": "000845",
+			"secondary": "FFFEF4",
 			"tertiary": "009dd8",
-			"quaternary": "#00FFA7",
-			"header_background": "#00FFA7",
-			"header_primary": "#000845",
-			"highlight": "#FC7A28",
+			"quaternary": "00FFA7",
+			"header_background": "00FFA7",
+			"header_primary": "000845",
+			"highlight": "FC7A28",
 			"danger": "96000e",
 			"success": "1ca551",
 			"love": "f50057"

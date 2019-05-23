@@ -15,3 +15,9 @@
 .btn {
   background: $tertiary;
 }
+
+.category-topic-link.visited {
+  a.title:not(.badge-notification) {
+    color: $primary;
+  }
+}

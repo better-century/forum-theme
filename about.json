@@ -1,8 +1,9 @@
-"name": "The Better Theme",
+{
+  "name": "The Better Theme",
   "about_url": "https://github.com/better-century/forum-theme/blob/master/README.md",
   "license_url": "https://github.com/better-century/forum-theme/blob/master/LICENSE",
   "color_schemes": {
-  "Foo bar": {
+  "bc_colors": {
       "primary": "cccccc",
       "secondary": "111111",
       "tertiary": "009dd8",

@@ -16,6 +16,9 @@
 			"love": "f50057"
 		}
 	}
+    "assets" : {
+        "child_helping_img" : "assets/child-helping.jpg"
+    }
 }
 
 

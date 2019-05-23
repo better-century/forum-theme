@@ -4,13 +4,13 @@
 	"license_url": "https://github.com/better-century/forum-theme/blob/master/LICENSE",
 	"color_schemes": {
 		"bc_colors": {
-			"primary": "cccccc",
-			"secondary": "111111",
+			"primary": "#000845",
+			"secondary": "#FFFEF4",
 			"tertiary": "009dd8",
-			"quaternary": "9E9E9E",
-			"header_background": "131418",
-			"header_primary": "cccccc",
-			"highlight": "9E9E9E",
+			"quaternary": "#00FFA7",
+			"header_background": "#00FFA7",
+			"header_primary": "#000845",
+			"highlight": "#FC7A28",
 			"danger": "96000e",
 			"success": "1ca551",
 			"love": "f50057"

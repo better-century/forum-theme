@@ -7,10 +7,10 @@
 			"primary": "000845",
 			"secondary": "FFFEF4",
 			"tertiary": "00FFA7",
-			"quaternary": "FFF400",
+			"quaternary": "FC7A28",
 			"header_background": "FFFFFF",
 			"header_primary": "000845",
-			"highlight": "FC7A28",
+			"highlight": "FFF400",
 			"danger": "96000e",
 			"success": "1ca551",
 			"love": "f50057"

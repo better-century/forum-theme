@@ -12,3 +12,47 @@
     font-size: 8em;
     color: white;
 }
+
+.btn {
+  border: none;
+  color: $primary;
+  font-weight: normal;
+  background: $tertiary;
+  .d-icon {
+    color: $primary;
+  }
+
+  &[href] {
+    color: $primary;
+    min-height: unset; // ovverides button defaults
+  }
+  .discourse-no-touch & {
+    // only allow hover on no-touch devices
+    &:hover,
+    &.btn-hover {
+      background: $primary;
+      color: $secondary;
+      .d-icon {
+        color: $secondary;
+      }
+    }
+  }
+  &[disabled],
+  &.disabled {
+    background: $primary;
+    .d-icon {
+      color: $primary;
+    }
+    &:hover {
+      color: dark-light-choose($primary, $secondary);
+      .d-icon {
+        color: $primary;
+      }
+    }
+    cursor: not-allowed;
+  }
+
+  .d-icon {
+    line-height: $line-height-medium; // Match button text line-height
+  }
+}

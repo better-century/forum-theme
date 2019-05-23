@@ -10,6 +10,7 @@
 			"quaternary": "00FFA7",
 			"header_background": "FFFFFF",
 			"header_primary": "000845",
+            "header_primary-low-mid" :"000845",
 			"highlight": "FC7A28",
 			"danger": "96000e",
 			"success": "1ca551",

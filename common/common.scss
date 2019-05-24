@@ -1,3 +1,5 @@
+$bc-navy : #000845;
+
 .hello-world-banner {
     height: 300px;
     width: 100%;
@@ -12,57 +14,60 @@
     color: white;
 }
 
+
+
 .btn {
   background: $tertiary;
 }
 
-.category-topic-link.visited {
-  a.title:not(.badge-notification) {
-    color: $primary;
-  }
-}
+//.category-topic-link.visited {
+//  a.title:not(.badge-notification) {
+//    color: $primary;
+//  }
+//}
+//
+//.topic-list-item.visited,
+//.latest-topic-list-item.visited,
+//.category-topic-link.visited {
+//  a.title:not(.badge-notification) {
+//    color: $primary;
+//  }
+//}
 
-.topic-list-item.visited,
-.latest-topic-list-item.visited,
-.category-topic-link.visited {
-  a.title:not(.badge-notification) {
-    color: $primary;
-  }
-}
 .d-header-icons {
   .d-icon {
-    color: $primary;
+    color: $bc-navy;
   }
 }
 
-table {
-  th {
-    color: $primary;
-  }
-}
-
-th {
-    button .d-icon {
-      color: $primary;
-    }
-}
-.topic-list {
-  th {
-    button .d-icon {
-      color: $primary;
-    }
-  }
-  td {
-      color: $primary;
-  }
-
-}
-.coldmap-low {
-    color: $primary;
-}
-.badge-posts[href] {
-    color: $primary;
-}
-.discourse-tag {
-  color: $primary;
-}
+//table {
+//  th {
+//    color: $primary;
+//  }
+//}
+//
+//th {
+//    button .d-icon {
+//      color: $primary;
+//    }
+//}
+//.topic-list {
+//  th {
+//    button .d-icon {
+//      color: $primary;
+//    }
+//  }
+//  td {
+//      color: $primary;
+//  }
+//
+//}
+//.coldmap-low {
+//    color: $primary;
+//}
+//.badge-posts[href] {
+//    color: $primary;
+//}
+//.discourse-tag {
+//  color: $primary;
+//}

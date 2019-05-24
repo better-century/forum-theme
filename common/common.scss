@@ -20,31 +20,12 @@ $bc-navy : #000845;
   background: $tertiary;
 }
 
-.category-topic-link.visited {
-  a.title:not(.badge-notification) {
-    color: $bc-navy;
-  }
-}
-
-.topic-list-item.visited,
-.latest-topic-list-item.visited,
-.category-topic-link.visited {
-  a.title:not(.badge-notification) {
-    color: $bc-navy;
-  }
-}
-
 .d-header-icons {
   .d-icon {
     color: $bc-navy;
   }
 }
 
-table {
-  th {
-    color: $bc-navy;
-  }
-}
 
 th {
     button .d-icon {
@@ -61,12 +42,6 @@ th {
       color: $bc-navy;
   }
 
-}
-.coldmap-low {
-    color: $bc-navy;
-}
-.badge-posts[href] {
-    color: $bc-navy;
 }
 .discourse-tag {
   color: $bc-navy;

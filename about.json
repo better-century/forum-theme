@@ -18,7 +18,8 @@
 	},
     "assets" : {
         "child_helping_img" : "assets/images/child-helping.jpg",
-		"work_sans_regular" : "assets/fonts/WorkSans-Regular.ttf"
+		"work_sans_regular" : "assets/fonts/WorkSans-Regular.ttf",
+		"work_sans_bold" : "assets/fonts/WorkSans-Bold.ttf"
     }
 }
 

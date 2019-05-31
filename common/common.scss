@@ -12,7 +12,13 @@ $bc-navy : #000845;
 
 @font-face {
   font-family: WorkSans;
-  src: url($work_sans_regular) format('truetype')
+  src: url($work_sans_regular) format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url($work_sans_regular) format('truetype');
+  font-weight: bold;
 }
 
 body {

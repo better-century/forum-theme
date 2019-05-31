@@ -10,6 +10,17 @@ $bc-navy : #000845;
     margin-bottom: 1em;
 }
 
+@font-face {
+  font-family: WorkSans;
+  src: url($work_sans_regular) format('truetype')
+}
+
+body {
+    font-family: WorkSans;
+    font-size: 15px;
+}
+
+
 .hello-world {
     color: white;
 }

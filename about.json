@@ -17,7 +17,8 @@
 		}
 	},
     "assets" : {
-        "child_helping_img" : "assets/child-helping.jpg"
+        "child_helping_img" : "assets/images/child-helping.jpg",
+		"work_sans_regular" : "assets/fonts/WorkSans-Regular.ttf"
     }
 }
 

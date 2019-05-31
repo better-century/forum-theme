@@ -41,3 +41,18 @@ th {
 .discourse-tag {
   color: $bc-navy;
 }
+
+a {
+  color: $bc-navy;
+  text-decoration: none;
+  cursor: pointer;
+  &:visited {
+    color: $bc-navy;
+  }
+  &:hover {
+    color: $secondary;
+  }
+  &:active {
+    color: $bc-navy;
+  }
+}

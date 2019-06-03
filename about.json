@@ -18,6 +18,12 @@
 	},
     "assets" : {
         "child_helping_img" : "assets/images/child-helping.jpg",
+		"cycle_commute_img" : "assets/images/cycle_commute.jpg",
+		"solar_panels_img" : "assets/images/solar_panels.jpg",
+		"homes_img" : "assets/images/homes.png",
+		"living_img" : "assets/images/living.png",
+		"money_img" : "assets/images/money.png",
+		"places_img" : "assets/images/places.png",
 		"work_sans_regular_ttf" : "assets/fonts/WorkSans-Regular.ttf",
 		"work_sans_regular_woff" : "assets/fonts/WorkSans-Regular.woff",
 		"work_sans_regular_woff2" : "assets/fonts/WorkSans-Regular.woff2",

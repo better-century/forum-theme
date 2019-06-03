@@ -1,9 +1,19 @@
 $bc-navy : #000845;
 
+
 .hello-world-banner {
     height: 500px;
     width: 100%;
     background: url($child_helping_img);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.bc-category-list {
+    height: 200px;
+    width: 100%;
+    background: $tertiary;
     display: flex;
     align-items: center;
     justify-content: center;

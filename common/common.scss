@@ -12,11 +12,11 @@ $bc-navy : #000845;
 }
 .mission-statement {
   width: 100%;
-  background: $bc-navy;
-  display: flex;
+  background: $bc-navy;display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1em;
 }
 .mission-statement-item {
   color: $secondary;
@@ -32,17 +32,24 @@ $bc-navy : #000845;
     width: 100%;
     background: $tertiary;
     display: flex;
+    flex-direction: row  ;
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
 }
 
-.bc-transport-category {
+.bc-category-list-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: url($transport_img);
-  margin-bottom: 1em;
+  flex-direction: column;
+}
+
+$bc-category-icon-size=200px;
+
+.bc-transport-icon {
+  background-image: url($transport_img);
+  background-size: $bc-category-icon-size;
+  height: $bc-category-icon-size;
+  width: $bc-category-icon-size;
 }
 
 @font-face {

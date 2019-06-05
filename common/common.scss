@@ -43,6 +43,8 @@ $bc-navy : #000845;
 .bc-category-list-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 1.5em;
 }
 
 $bc-category-icon-size: 100px;

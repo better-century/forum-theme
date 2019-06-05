@@ -24,6 +24,7 @@
 		"living_img" : "assets/images/living.png",
 		"money_img" : "assets/images/money.png",
 		"places_img" : "assets/images/places.png",
+		"transport_img" : "assets/images/transport.png",
 		"work_sans_regular_ttf" : "assets/fonts/WorkSans-Regular.ttf",
 		"work_sans_regular_woff" : "assets/fonts/WorkSans-Regular.woff",
 		"work_sans_regular_woff2" : "assets/fonts/WorkSans-Regular.woff2",

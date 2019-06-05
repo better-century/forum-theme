@@ -20,6 +20,14 @@ $bc-navy : #000845;
     margin-bottom: 1em;
 }
 
+.bc-transport-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url($transport_img);
+  margin-bottom: 1em;
+}
+
 @font-face {
   font-family: WorkSans;
   src: url($work_sans_regular_ttf) format('truetype'),

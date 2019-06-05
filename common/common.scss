@@ -4,7 +4,7 @@ $bc-navy : #000845;
 .hello-world-banner {
     height: 500px;
     width: 100%;
-    background: url($child_helping_img);
+    background: linear-gradient(#004092, #020202, transparent), url($child_helping_img) no-repeat, center;
     display: flex;
     align-items: center;
     justify-content: center;

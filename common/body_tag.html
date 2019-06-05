@@ -1,7 +1,6 @@
 <script type="text/x-handlebars" data-template-name="/connectors/below-site-header/frontpage-image">
-{{#unless currentUser.username}}
-{{/unless}}
     <div>
+        {{#unless currentUser.username}}
         <div class="mission-statement-banner">
             <h1 class="mission-statement-banner-item">Let’s make a Better Century, where all life thrives.</h1>
         </div>
@@ -10,6 +9,7 @@
             <p class="mission-statement-item">To make a Better Century, where improved use and sharing of resources creates an environment where all life thrives.</p>
             <a href="https://bettercentury.org/about" class="bc-button-link">Find Out More</a>
         </div>
+        {{/unless}}
         <div class="bc-category-list">
             <a href="/c/BetterTransport" class="bc-category-list-item">
                 <div class="bc-category-icon bc-transport-icon"></div>

@@ -13,6 +13,9 @@ $bc-navy : #000845;
     align-items: center;
     justify-content: center;
 }
+.anon .mission-statement-banner{
+  display: none;
+}
 .mission-statement {
   width: 100%;
   background: $bc-navy;
@@ -22,14 +25,24 @@ $bc-navy : #000845;
   justify-content: center;
   padding-bottom: 1em;
 }
+.anon mission-statement {
+  display: none;
+}
 .mission-statement-item {
   color: $secondary;
   text-align: center;
   margin: 0.5em;
 }
+.anon mission-statement-item {
+  display: none;
+}
 
 .mission-statement-banner-item {
   color: $secondary;
+}
+.anon .mission-statement-banner-item {
+  display: none;
+
 }
 .bc-category-list {
     width: 100%;

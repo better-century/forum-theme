@@ -11,6 +11,19 @@ $bc-navy : #000845;
     justify-content: center;
     margin-bottom: 1em;
 }
+.mission-statement-banner {
+  height: 500px;
+  width: 100%;
+  background: linear-gradient($bc-navy,transparent, transparent) , center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.mission-statement-item {
+  color: $secondary;
+}
 
 .mission-statement-banner-item {
   color: $secondary;

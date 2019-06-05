@@ -4,7 +4,7 @@ $bc-navy : #000845;
 .mission-statement-banner {
     height: 500px;
     width: 100%;
-    background: linear-gradient(transparent, $bc-navy), url($child_helping_img) no-repeat, center;
+    background: linear-gradient(transparent, $secondary), url($child_helping_img) no-repeat, center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ $bc-navy : #000845;
 }
 
 .mission-statement-banner-item {
-  color: $primary;
+  color: $secondary;
 }
 .bc-category-list {
     height: 200px;

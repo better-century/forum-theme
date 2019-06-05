@@ -16,6 +16,15 @@ $bc-navy : #000845;
   }
 }
 
+#top-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    max-width: 1110px;
+    //You can move the menu to the left, to the center or to the right
+    text-align: center;
+}
+
 .mission-statement-banner {
     height: 500px;
     width: 100%;

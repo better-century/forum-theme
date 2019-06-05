@@ -1,14 +1,18 @@
 $bc-navy : #000845;
 
 
-.hello-world-banner {
+.mission-statement-banner {
     height: 500px;
     width: 100%;
-    background: linear-gradient(#004092, #020202, transparent), url($child_helping_img) no-repeat, center;
+    background: linear-gradient(#004092, $bc-navy, transparent), url($child_helping_img) no-repeat, center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
+}
+
+.hello-world {
+  color: $primary;
 }
 .bc-category-list {
     height: 200px;
@@ -49,9 +53,6 @@ body {
 }
 
 
-.hello-world {
-    color: white;
-}
 
 
 .btn {

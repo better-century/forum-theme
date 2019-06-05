@@ -45,10 +45,10 @@ $bc-navy : #000845;
   flex-direction: column;
 }
 
-$bc-category-icon-size: 200px;
+$bc-category-icon-size: 100px;
 
 .bc-category-icon {
-  background-size: $bc-category-icon-size;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: $bc-category-icon-size;
@@ -59,6 +59,23 @@ $bc-category-icon-size: 200px;
 .bc-transport-icon {
   background-image: url($transport_img);
 }
+
+.bc-homes-icon {
+  background-image: url($homes_img);
+}
+
+.bc-places-icon {
+  background-image: url($places_img);
+}
+
+.bc-living-icon {
+  background-image: url($living_img);
+}
+
+.bc-money-icon {
+  background-image: url($money_img);
+}
+
 
 @font-face {
   font-family: WorkSans;

@@ -47,7 +47,7 @@ $bc-navy : #000845;
 }
 .bc-category-list {
     width: 100%;
-    background: $tertiary;
+    background: $secondary;
     display: flex;
     flex-direction: row  ;
     padding-top: 4em;
@@ -57,6 +57,7 @@ $bc-navy : #000845;
 }
 .anon .bc-category-list {
   padding-top: unset;
+  background: $tertiary;
 }
 
 .bc-category-list-item {

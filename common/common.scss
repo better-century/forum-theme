@@ -22,13 +22,11 @@ $bc-navy : #000845;
   display: none;
   flex-direction: column;
   align-items: center;
-  padding-top: 4em;
   justify-content: center;
   padding-bottom: 1em;
 }
 .anon .mission-statement {
   display: flex;
-  padding-top: unset;
 }
 .mission-statement-item {
   color: $secondary;
@@ -52,9 +50,13 @@ $bc-navy : #000845;
     background: $tertiary;
     display: flex;
     flex-direction: row  ;
+    padding-top: 4em;
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
+}
+.anon .bc-category-list {
+  padding-top: unset;
 }
 
 .bc-category-list-item {

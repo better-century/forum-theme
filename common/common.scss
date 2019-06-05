@@ -8,41 +8,42 @@ $bc-navy : #000845;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 4em;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .anon .mission-statement-banner{
-  display: none;
+  display: flex;
 }
 .mission-statement {
   width: 100%;
   background: $bc-navy;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 1em;
 }
 .anon mission-statement {
-  display: none;
+  display: flex;
 }
 .mission-statement-item {
   color: $secondary;
   text-align: center;
   margin: 0.5em;
+  display: none;
 }
 .anon mission-statement-item {
-  display: none;
+  display:block;
 }
 
 .mission-statement-banner-item {
   color: $secondary;
+  display: none;
 }
 .anon .mission-statement-banner-item {
-  display: none;
-
+  display: block;
 }
 .bc-category-list {
     width: 100%;

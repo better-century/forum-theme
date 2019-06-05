@@ -5,6 +5,8 @@ $bc-navy : #000845;
     height: 500px;
     width: 100%;
     background: linear-gradient(transparent, transparent, $bc-navy), url($child_helping_img) , center;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +14,8 @@ $bc-navy : #000845;
 }
 .mission-statement {
   width: 100%;
-  background: $bc-navy;display: flex;
+  background: $bc-navy;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,7 +31,6 @@ $bc-navy : #000845;
   color: $secondary;
 }
 .bc-category-list {
-    height: 200px;
     width: 100%;
     background: $tertiary;
     display: flex;
@@ -45,11 +47,17 @@ $bc-navy : #000845;
 
 $bc-category-icon-size=200px;
 
-.bc-transport-icon {
-  background-image: url($transport_img);
+.bc-category-icon {
   background-size: $bc-category-icon-size;
+  background-repeat: no-repeat;
+  background-position: center;
   height: $bc-category-icon-size;
   width: $bc-category-icon-size;
+
+}
+
+.bc-transport-icon {
+  background-image: url($transport_img);
 }
 
 @font-face {

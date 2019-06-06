@@ -47,6 +47,11 @@ $bc-navy : #000845;
   display: block;
 }
 
+.bc-category-header {
+  margin-top: 0.5em;
+  color: $bc-navy;
+}
+
 .bc-category-section{
   width: 100%;
   background: unset;

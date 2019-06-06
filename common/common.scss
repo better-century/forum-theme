@@ -33,8 +33,6 @@ $bc-yellow: #FFF400;
   color: $secondary;
   text-align: center;
   margin: 0.5em;
-  padding: 2px;
-  background: #00084594;
   display: none;
 }
 .anon .mission-statement-item {
@@ -44,6 +42,8 @@ $bc-yellow: #FFF400;
 .mission-statement-banner-item {
   color: $secondary;
   text-align: center;
+  padding: 2px;
+  background: #00084594;
   display: none;
 }
 .anon .mission-statement-banner-item {

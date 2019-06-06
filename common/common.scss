@@ -42,7 +42,7 @@ $bc-yellow: #FFF400;
 .mission-statement-banner-item {
   color: $secondary;
   text-align: center;
-  padding: 2px;
+  padding: 0.25em;
   background: #00084594;
   display: none;
 }
@@ -149,6 +149,11 @@ body {
 
 .btn {
   background: $tertiary;
+}
+
+.btn-primary {
+  color: $bc-navy;
+  font-weight: bold;
 }
 
 .d-header-icons {

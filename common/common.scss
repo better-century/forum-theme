@@ -46,19 +46,29 @@ $bc-navy : #000845;
 .anon .mission-statement-banner-item {
   display: block;
 }
-.bc-category-list {
-    width: 100%;
-    background: $secondary;
-    display: flex;
-    flex-direction: row  ;
-    padding-top: 6em;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+
+.bc-category-section{
+  width: 100%;
+  background: unset;
+  display: flex;
+  flex-direction: column  ;
+  padding-top: 6em;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+
 }
-.anon .bc-category-list {
+.anon .bc-category-section {
   padding-top: unset;
   background: $tertiary;
+}
+
+.bc-category-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row  ;
+    align-items: center;
+    justify-content: center;
 }
 
 .bc-category-list-item {

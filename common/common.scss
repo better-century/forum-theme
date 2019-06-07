@@ -72,11 +72,12 @@ $bc-yellow: #FFF400;
 }
 
 .bc-category-list {
-    width: 100%;
-    display: flex;
-    flex-direction: row  ;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row  ;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .bc-category-list-item {

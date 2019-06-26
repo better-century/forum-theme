@@ -1,5 +1,7 @@
 $bc-navy : #000845;
 $bc-yellow: #FFF400;
+$bc-pink: #F2136E;
+$bc-green:#00FFA7;
 
 .mission-statement-banner {
     height: 500px;
@@ -192,5 +194,18 @@ a {
   }
   &:active {
     color: $bc-navy;
+  }
+}
+
+
+.onebox-body {
+
+  a[href] {
+    color: $bc-pink;
+    text-decoration: none;
+  }
+
+  a[href]:visited {
+    color: $bc-pink;
   }
 }

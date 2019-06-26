@@ -188,7 +188,8 @@ a {
     color: $bc-navy;
   }
   &:hover {
-    color: $secondary;
+    color: $bc-navy;
+    font-weight: bold;
   }
   &:active {
     color: $bc-navy;

@@ -197,15 +197,26 @@ a {
   }
 }
 
+.topic-body {
+  p {
+    a {
+      color: $bc-pink;
+    }
+  }
+}
 
-.onebox-body {
 
-  a[href] {
-    color: $bc-pink;
-    text-decoration: none;
+aside.onebox {
+  .onebox-body {
+
+    a[href] {
+      color: $bc-pink;
+      text-decoration: none;
+    }
+
+    a[href]:visited {
+      color: $bc-pink;
+    }
   }
 
-  a[href]:visited {
-    color: $bc-pink;
-  }
 }

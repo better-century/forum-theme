@@ -89,16 +89,6 @@ $bc-green:#00FFA7;
   margin: 1.5em;
 }
 
-$bc-category-icon-size: 7em;
-
-.bc-category-icon {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: $bc-category-icon-size;
-  width: $bc-category-icon-size;
-
-}
 
 .bc-transport-icon {
   background-image: url($transport_img);

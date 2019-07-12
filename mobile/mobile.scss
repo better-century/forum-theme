@@ -8,3 +8,21 @@ $bc-category-icon-size: 3em;
   width: $bc-category-icon-size;
 
 }
+
+.bc-category-list-item {
+  p {
+    display: none;
+  }
+}
+
+.bc-category-header {
+  display: none;
+}
+
+.mission-statement-banner {
+  display: none;
+}
+
+.mission-statement-banner-item {
+  display: none;
+}

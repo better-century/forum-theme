@@ -16,9 +16,6 @@ $bc-green:#00FFA7;
     align-items: center;
     justify-content: center;
 }
-.anon .mission-statement-banner{
-  display: flex;
-}
 .mission-statement {
   width: 100%;
   background: $bc-navy;
@@ -47,9 +44,6 @@ $bc-green:#00FFA7;
   padding: 0.25em;
   background: #00084594;
   display: none;
-}
-.anon .mission-statement-banner-item {
-  display: block;
 }
 
 .bc-category-header {

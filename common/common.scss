@@ -25,17 +25,11 @@ $bc-green:#00FFA7;
   justify-content: center;
   padding-bottom: 1em;
 }
-.anon .mission-statement {
-  display: flex;
-}
 .mission-statement-item {
   color: $secondary;
   text-align: center;
   margin: 0.5em;
   display: none;
-}
-.anon .mission-statement-item {
-  display:block;
 }
 
 .mission-statement-banner-item {

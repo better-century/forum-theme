@@ -40,15 +40,29 @@ $bc-green:#00FFA7;
   display: none;
 }
 
+.navigation-topics {
+  .bc-category-header {
+    display: flex;
+  }
+}
+
 .bc-category-header {
   margin-top: 0.5em;
   color: $bc-navy;
+  display: none;
 }
+
+.navigation-topics {
+  .bc-category-section {
+    display: flex;
+  }
+}
+
 
 .bc-category-section{
   width: 100%;
   background: unset;
-  display: flex;
+  display: none;
   flex-direction: column  ;
   padding-top: 6em;
   align-items: center;

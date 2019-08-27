@@ -8,16 +8,24 @@ $bc-category-icon-size: 7em;
   width: $bc-category-icon-size;
 
 }
-.navigation-topics .anon .mission-statement-banner{
-  display: flex;
+.navigation-topics {
+  .mission-statement-banner {
+    display: flex;
+  }
 }
 
-.navigation-topics .anon .mission-statement-banner-item {
-  display: block;
+.navigation-topics {
+  .mission-statement-banner-item {
+    display: block;
+  }
 }
-.navigation-topics .anon .mission-statement {
-  display: flex;
+.navigation-topics {
+  .mission-statement {
+    display: flex;
+  }
 }
-.navigation-topics .anon .mission-statement-item {
-  display:block;
+.navigation-topics {
+  .mission-statement-item {
+    display: block;
+  }
 }

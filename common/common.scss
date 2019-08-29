@@ -2,6 +2,7 @@ $bc-navy : #000845;
 $bc-yellow: #FFF400;
 $bc-pink: #F2136E;
 $bc-green:#00FFA7;
+$bc-orange: #FC7A28;
 
 .mission-statement-banner {
     height: 500px;
@@ -220,7 +221,7 @@ aside.onebox {
   left: 50%;
   transform: translate(-50%,-50%);
   &.alert-info {
-    background-color: $bc-pink;
+    background-color: $bc-orange;
   }
 }
 

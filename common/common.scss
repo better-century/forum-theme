@@ -4,6 +4,13 @@ $bc-pink: #F2136E;
 $bc-green:#00FFA7;
 $bc-orange: #FC7A28;
 
+
+.d-header {
+    background-color: $bc-navy;
+    height: 65px;
+}
+
+
 .mission-statement-banner {
     height: 500px;
     width: 100%;
@@ -144,7 +151,7 @@ body {
 
 .d-header-icons {
   .d-icon {
-    color: $bc-navy;
+    color: $secondary;
   }
 }
 
